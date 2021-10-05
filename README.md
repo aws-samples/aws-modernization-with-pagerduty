@@ -1,18 +1,27 @@
-## My Project
+# Overview
 
-TODO: Fill this README out!
+This repo contains the content for the workshop available at TBD
 
-Be sure to:
+# Feedback
 
-* Change the title in this README
-* Edit your repository description on GitHub
+Whether it's a bug report, new feature, correction, or additional documentation, we greatly value feedback and contributions.
 
-## Security
+You can share your feedback by opening a `new issue` [here](https://github.com/dt-alliances-workshops/aws-modernization-with-pagerduty/issues)
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+Please ensure we have all the necessary information to effectively respond to your bug report or contribution such as:
+* A reproducible test case or series of steps
+* The URL to the page with an issue
 
-## License Summary
+# Developer Notes
 
-The documentation is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See the LICENSE file.
+* Need to use [Hugo 0.71.0](https://github.com/gohugoio/hugo/releases/tag/v0.71.0)
+* If you are a MAC you may need to run this command on the hugo binary `xattr -d com.apple.quarantine hugo`
+* After forking repo run these commands to initialize the themes
 
-The sample code within this documentation is made available under the MIT-0 license. See the LICENSE-SAMPLECODE file.
+    ```
+    git submodule init
+    git submodule update
+    ```
+
+* To run locally call `hugo server`
+
