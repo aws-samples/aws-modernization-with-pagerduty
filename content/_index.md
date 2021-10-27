@@ -14,15 +14,10 @@ By ingesting alerts from your monitoring tools, ITSM tools, ChatOps tools, Pager
 
 This technical workshop will help you to understand how PagerDuty can consume CloudWatch Alarm notifications as alerts in order to mobilize the right teams, leverage EventBridge to take automated action and understand use cases other than Infraastructure and Application monitoring.
 
-### Learning Objectives
-- How to configure PagerDuty to receive CloudWatch alarm Notifications as Alerts
-- Leverage EventBridge to take action from PagerDuty
-- Send Security alarms from SecurityHub 
-
 {{% notice warning %}}
 <p style='text-align: left;'>
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be configured to work with PagerDuty.
 </p>
 {{% /notice %}}
 
-<a href="https://aws.amazon.com/marketplace/pp/B07PZY3369?&trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace" target="_blank"><img src="/images/setup/available-in-awsmp-badge.png"></a>
+<a href="https://aws.amazon.com/marketplace/pp/B07PZY3369?&trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace" target="_blank"><img src="/images/pd-badge.png"></a>
