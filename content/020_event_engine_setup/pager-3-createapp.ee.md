@@ -1,7 +1,7 @@
 ---
 title: "Create a Simple Application"
 chapter: true
-weight: 23
+weight: 13
 ---
 
 ## Create a Simple Application

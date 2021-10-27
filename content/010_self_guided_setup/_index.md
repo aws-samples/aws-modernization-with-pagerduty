@@ -2,7 +2,7 @@
 title: "Self Guided Setup"
 chapter: true
 draft: false
-weight: 1
+weight: 2
 ---
 
 # Self-Paced Workshop

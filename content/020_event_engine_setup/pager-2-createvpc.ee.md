@@ -1,7 +1,7 @@
 ---
 title: "Create a VPC"
 chapter: true
-weight: 22
+weight: 12
 ---
 
 {{% notice note %}}

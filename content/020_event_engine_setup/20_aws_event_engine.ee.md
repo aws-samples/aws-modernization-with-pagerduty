@@ -1,7 +1,7 @@
 ---
 title: "AWS Event Engine"
 chapter: true
-weight: 21
+weight: 11
 ---
 
 ## Attending an AWS hosted event
