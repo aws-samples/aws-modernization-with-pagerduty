@@ -24,10 +24,29 @@ The examples and sample code provided in this workshop are intended to be consum
       - Select a single private Subnet where the EC2 machine will reside.
       - Finally click **Next**
    - Configure stack options, click **Next**
-   - Scroll to bottom section under **Capabilities** and check both boxes and click **Create stack**
+   - Scroll to the bottom and click **Create stack**
 
 This template deploys a Loadbalancer and one EC2 machine that hosts an Nginx webserver.
 
 This will take a couple of minutes to deploy.
 
 When it is complete, find the Output subtab and it will show a URL for the website.  Open it in a browser to verify everything is up and running.
+
+### Manual Setup
+
+   In case of acccess restrctions, you can download this Cloudformation template to your local machine, and run it directly from the console.
+
+   - Right click this link: [YAML File](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-pagerduty/main/static/cfn_files/Demo-noasg.yml) and select "Save link As" , maked sure to save the file as a .yml/yaml file .
+   - Open your AWS Console, From **Services** Select **Cloudformation**
+   - Click the **Create Stack** button.
+   - Under **Template soruce** Select **Upload a template file** , Click **Choose file** button and select the yaml file yopu have downloaded.
+   - Click **Next**.
+   - Under **Stack Name** input **Workshop-PD-APP**.
+   - Specify stack details,
+      - Set the KeyName for the EC2 machine
+      - Select 2 Public subnets for the Loadbalancer
+      - Select the correct VPC id from the drop down
+      - Select a single private Subnet where the EC2 machine will reside.
+      - Finally click **Next**
+   - Click **Next** then **Next** again.
+   - On the final page click **Create stack** to start deploying the template.
