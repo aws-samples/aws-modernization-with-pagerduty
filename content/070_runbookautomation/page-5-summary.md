@@ -15,4 +15,4 @@ In this section, we learned:
 
 - We created a Pagerduty RBA project and added AWS credentials to a keystore
 - We created a Pagerduty RBA job which retrieves NGINX logs via AWS CloudWatch
-- [TBC] We added EC2 Nodes to our PagerDuty RBA project which used Systems Manager (SSM) for connectivity and job execution
+- [Upcoming] We added EC2 Nodes to our PagerDuty RBA project which used Systems Manager (SSM) for connectivity and job execution

@@ -42,4 +42,11 @@ Ensure that key type is set to "Password" and paste in your AWS Secret Key under
 
 Once entered, click on "Save" to upload and store your secret; this will be visible on page refresh.
 
+{{% notice info %}}
+
+<p style='text-align: left;'>
+Take note of the storage path of your AWS secret key; click on the link icon to copy the path for the next section
+</p>
+{{% /notice %}}
+
 ![](/images/pd_rba_project_setup_5.png)
