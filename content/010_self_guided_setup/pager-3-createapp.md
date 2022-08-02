@@ -14,7 +14,7 @@ The examples and sample code provided in this workshop are intended to be consum
 </p>
 {{% /notice %}}
 
-[Click here to deploy using CloudFormation template](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/cfn/sample-web-app/Demo-noasg.yml)
+[Click here to deploy using CloudFormation template](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Workshop-PD-APP&templateURL=https://modernization-workshop-bucket-giran.s3.amazonaws.com/Demo-noasg.yml)
 
    - Create stack, click **Next**
    - Specify stack details,
@@ -36,7 +36,7 @@ When it is complete, find the Output subtab and it will show a URL for the websi
 
    In case of acccess restrctions, you can download this Cloudformation template to your local machine, and run it directly from the console.
 
-   - Right click this link: [YAML File](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-pagerduty/main/static/cfn_files/Demo-noasg.yml) and select "Save link As" , maked sure to save the file as a .yml/yaml file .
+   - Right click this link: [YAML File](https://modernization-workshop-bucket-giran.s3.amazonaws.com/Demo-noasg.yml) and select "Save link As" , maked sure to save the file as a .yml/yaml file .
    - Open your AWS Console, From **Services** Select **Cloudformation**
    - Click the **Create Stack** button.
    - Under **Template soruce** Select **Upload a template file** , Click **Choose file** button and select the yaml file yopu have downloaded.
