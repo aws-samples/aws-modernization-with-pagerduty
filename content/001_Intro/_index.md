@@ -7,7 +7,8 @@ weight: 1
 ### Learning Objectives
 - How to configure PagerDuty to receive CloudWatch alarm Notifications as Alerts
 - Leverage EventBridge to take action from PagerDuty
-- Send Security alarms from SecurityHub 
+- Send Security alarms from SecurityHub
+- Use PagerDuty Runbook Automation to query CloudWatch logs (Optional)
 
 {{% notice warning %}}
 <p style='text-align: left;'>
