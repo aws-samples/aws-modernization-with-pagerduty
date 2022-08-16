@@ -1,12 +1,12 @@
 ---
-title: "Setup Project"
+title: "Import Diagnostics Project"
 chapter: true
 weight: 2
 ---
 
-## Setup Project
+## Import Diagnostics Project
 
-In this section, we will describe what a PagerDuty Runbook Automation (RBA) project is, as well as create and configure a project for this workshop.
+In this section, we will describe what a PagerDuty Runbook Automation (RBA) project is, as well as import an existing project with prebuilt automation for diagnostics.
 
 ### What is a Project?
 
@@ -21,9 +21,18 @@ Log into PagerDuty RBA using the credentials provided to you by your PagerDuty r
 ![](/images/pd_rba_login.png)
 
 Once you have logged in, click on "New Project" to bring up the project creation page.  
-Define the project name using the format `AWS-PD-COMPANYNAME-USERNAME` and click on "Create" to create the project for this workshop.
+Define the project **name** as **`automated-diagnostics`** and the **label** as **`Automated Diagnostics`**.  Click on "Create" to create the project for this workshop.
 
 ![](/images/pd_rba_project_setup_1.png)
+
+#### Download and Import the Project Template
+
+You can download the existing Diagnostics Project template by clicking [here](https://github.com/rundeckpro/automated-diagnostics-project/releases/download/1.1/automated-diagnostics-1.1.zip) and unzip the downloaded file.
+
+In the PagerDuty RBA project created in the previous set, click on **Project Settings** and then **Import Archive**:
+![](/images/import_project_template.png)
+
+In the **Choose a Rundeck archive** section, click **Choose File** and select the **`automated-diagnostics-xxxxxx-xxxxx.rdproject.jar`** file from the downloaded zip folder.
 
 ### Add AWS Secret Key to Project Keystore
 

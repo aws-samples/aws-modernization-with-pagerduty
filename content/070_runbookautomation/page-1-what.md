@@ -14,4 +14,4 @@ What companies really need to do is build automation for fulfilling those tasks,
 
 ![PagerDuty Runbook Automation Solution Overview](https://www.pagerduty.com/wp-content/uploads/2022/03/runbook-automation-diagram-optimized.svg)
 
-Using PagerDuty Runbook Automation (previously announced as Rundeck Cloud), Users turn manual runbooks into delegated, self-service requests and automate key IT tasks across environments to optimize security and compliance. This can include automating runbooks for resolving incidents, closing tickets, and fulfilling requests, now with the agility of operating in the cloud.
+Using PagerDuty Runbook Automation (previously announced as Rundeck Cloud), users turn manual runbooks into delegated, self-service requests and automate key IT tasks across environments to optimize security and compliance. This can include automating runbooks for resolving incidents, closing tickets, and fulfilling requests, now with the agility of operating in the cloud.
