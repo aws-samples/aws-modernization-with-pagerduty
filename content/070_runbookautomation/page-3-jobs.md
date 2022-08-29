@@ -4,9 +4,6 @@ chapter: true
 weight: 3
 ---
 
-## Create Automation Jobs
-
-In this section, we will describe what a PagerDuty RBA Job is, as well as how to create a job to collect CloudWatch logs using a pre-built plugin.
 
 ### What is a Job?
 

@@ -1,38 +1,12 @@
 ---
-title: "Import Diagnostics Project"
+title: "Configure Diagnostics Project"
 chapter: true
 weight: 2
 ---
 
-## Import Diagnostics Project
+## Configure Diagnostics Project
 
-In this section, we will describe what a PagerDuty Runbook Automation (RBA) project is, as well as import an existing project with prebuilt automation for diagnostics.
-
-### What is a Project?
-
-A project is a place within PagerDuty RBA to separate management activity. All PagerDuty RBA activities occur within the context of a project. Multiple projects can be maintained on the same PagerDuty RBA instance.
-
-Projects are independent from one another, so you can use them to organize unrelated systems within a single PagerDuty RBA instance. This can be useful for managing different teams, infrastructures, environments or applications.
-
-### Create Project
-
-Log into PagerDuty RBA using the credentials provided to you by your PagerDuty representative.
-
-![](/images/pd_rba_login.png)
-
-Once you have logged in, click on "New Project" to bring up the project creation page.  
-Define the project **name** as **`automated-diagnostics`** and the **label** as **`Automated Diagnostics`**.  Click on "Create" to create the project for this workshop.
-
-![](/images/pd_rba_project_setup_1.png)
-
-#### Download and Import the Project Template
-
-You can download the existing Diagnostics Project template by clicking [here](https://github.com/rundeckpro/automated-diagnostics-project/releases/download/1.1/automated-diagnostics-1.1.zip) and unzip the downloaded file.
-
-In the PagerDuty RBA project created in the previous set, click on **Project Settings** and then **Import Archive**:
-![](/images/import_project_template.png)
-
-In the **Choose a Rundeck archive** section, click **Choose File** and select the **`automated-diagnostics-xxxxxx-xxxxx.rdproject.jar`** file from the downloaded zip folder.
+In this section, you will add your AWS Credentials to the prebuilt Diagnostics Project.
 
 ### Add AWS Secret Key to Project Keystore
 
