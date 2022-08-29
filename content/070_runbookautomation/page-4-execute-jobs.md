@@ -1,5 +1,5 @@
 ---
-title: "Execute Automated Diagnostic Job"
+title: "Execute Diagnostics Job"
 chapter: true
 weight: 4
 ---
@@ -11,7 +11,7 @@ diagnostic data for responders during an incident.
 
 ### Running Jobs
 
-If you're not already redirected, navigate back to your project and click on "Get NGINX Access Logs via AWS CloudWatch" job.
+Navigate to the **Jobs** tab in Runbook Automation and click on "Get NGINX Access Logs via AWS CloudWatch" job.
 ![](/images/pd_rba_job_execution_1.png)
 ![](/images/pd_rba_job_setup_7.png)
 
