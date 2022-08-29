@@ -33,3 +33,21 @@ Take note of the storage path of your AWS secret key; click on the link icon to 
 {{% /notice %}}
 
 ![](/images/pd_rba_project_setup_5.png)
+
+### Place AWS Credentials in Project Configuration
+
+Navigate to **Project Settings -> Edit Configuration** and click on **Edit Configuration File**:
+
+![](/images/edit-project-config.png)
+
+Find the line in the file: **`project.aws.access_key`** and replace the value with your AWS Access Key.
+
+Then find the line in the file **`project.aws.secret_key_path`** and replace the value with the Key Storage path copied from the previous step.
+
+The lines in the file should now look similar to this:
+```
+    project.aws.access_key=AKIAQMZZURQOO7SFOPOD
+    proejct.aws.secret_key_path=keys/project/AWS-PD-ACMECORP-GIRAN/aws-secret-key
+```
+
+Click **Save** at the bottom of the page.

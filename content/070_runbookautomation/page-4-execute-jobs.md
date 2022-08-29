@@ -1,12 +1,13 @@
 ---
-title: "Execute Automation Jobs"
+title: "Execute Automated Diagnostic Job"
 chapter: true
 weight: 4
 ---
 
-## Execute Automation Jobs
+## Automated Diagnostics Jobs
 
-In this section, we will execute the PagerDuty RBA job we created previously and describe the outputs.
+In this section, we will execute a PagerDuty Runbook Automation Job that will query CloudWatch logs. This demonstrates the capability of surfacing 
+diagnostic data for responders during an incident.
 
 ### Running Jobs
 
