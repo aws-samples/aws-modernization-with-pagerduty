@@ -1,7 +1,7 @@
 ---
 title: "Module Summary"
 chapter: true
-weight: 66
+weight: 6
 ---
 
 ## Module Summary
