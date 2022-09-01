@@ -13,7 +13,7 @@ In this section, you will add your AWS Credentials to the prebuilt Diagnostics P
 To interact with AWS via API, PagerDuty RBA can securely store and use AWS secrets through it's [key storage](https://docs.rundeck.com/docs/manual/key-storage/key-storage.html).
 From within the project page navigation panel, click on "Project Settings" followed by "Key Storage".
 
-![](/images/pd_rba_project_setup_2.png)
+<img style='border:1px solid #327af6' src="/images/project-key-storage.png" />
 
 Click on "Add or Upload a Key" to bring up key storage modal.
 

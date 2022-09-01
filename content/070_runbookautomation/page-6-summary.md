@@ -8,11 +8,11 @@ weight: 6
 
 In this section, we learned:
 
-- What PagerDuty Runbook Automation is
-- How to setup PagerDuty Runbook Automation (RBA) to access and manage AWS resources
+- The basics of PagerDuty Runbook Automation (RBA).
+- The framework for the Automated Diagnostics use-case for Runbook Automation.
 
 ### What did we build?
 
-- We created a Pagerduty RBA project and added AWS credentials to a keystore
-- We created a Pagerduty RBA job which retrieves NGINX logs via AWS CloudWatch
-- [Upcoming] We added EC2 Nodes to our PagerDuty RBA project which used Systems Manager (SSM) for connectivity and job execution
+- We integrated Runbook Automation with AWS and PagerDuty.
+- We created retrieved Nginx logs from CloudWatch.
+- We added the Nginx logs to the PagerDuty incident timeline to demonstrate the concept of Automated Diagnostics.
