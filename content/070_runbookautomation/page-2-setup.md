@@ -4,6 +4,20 @@ chapter: true
 weight: 2
 ---
 
+## Change your Password
+
+Credentials to login for this class will be sent to you by a PagerDuty representative.  Upon first login please follow these steps in Runbook Automation to change the provided password.
+
+1. Click on the person icon in the upper right and choose **Profile**
+1. Click the **Change Password** button and select a password.
+    - The password must be 10 characters
+    - The password must contain letters, numbers and special characters
+    - The password can not contain repeating words.
+    - Basically... make it complex.
+1. Click **Save**
+
+> It is also recommended to edit your profile and add your First and Last name so the instructor and lab admins can better find your account.
+
 ## Configure Diagnostics Project
 
 In this section, you will add your AWS Credentials to the prebuilt Diagnostics Project.
