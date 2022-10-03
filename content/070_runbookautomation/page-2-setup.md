@@ -60,7 +60,7 @@ Then find the line in the file **`project.aws.secret_key_path`** and replace the
 
 The lines in the file should now look similar to this:
 ```
-    project.aws.access_key=AKIAQMZZURQOO7SFOPOD
+    project.aws.access_key=AWS_ACCESS_KEY
     proejct.aws.secret_key_path=keys/project/AWS-PD-ACMECORP-GIRAN/aws-secret-key
 ```
 
